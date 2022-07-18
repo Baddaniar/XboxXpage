@@ -1,0 +1,371 @@
+body{
+    background-color: #0C0C0C;
+}
+
+header{
+    padding-top: 60px;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.header_content{
+    margin: 0 auto;
+    width: 1229px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav > a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+}
+
+.order{
+    border: none;
+    width: 189px;
+    height: 60px;
+    background: #9BF00B;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.xbox_name{
+    margin: 0 auto;
+    height: 1010px;
+    width: 80%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.xbox_main_image{
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
+
+.green_text{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.03em;
+    color: #9BF00B;
+    text-transform: uppercase;
+}
+
+.main_text{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 171px;
+    line-height: 90.8%;
+    color: #FFFFFF;
+}
+
+.grey_text{
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 150%;
+    font-family: 'Inter', sans-serif;
+    color: #818181;
+}
+
+.wi530{
+    width: 530px;
+}
+
+.wi420{
+    width: 420px;
+}
+
+.wi450{
+    width: 450px;
+}
+
+.mt42{
+    margin-top: 42px;
+}
+.mt72{
+    margin-top: 72px;
+}
+
+.mt30{
+    margin-top: 30px;
+}
+
+.mt100{
+    margin-top: 100px;
+}
+
+.mt18{
+    margin-top: 18px;
+}
+
+.advantages{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    height: 400px;
+}
+
+.green{
+    color: #9BF00B;
+}
+
+.black{
+    color: black;
+}
+
+
+
+.big_text{
+    width: 1075px;
+    height: 315px;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 91px;
+    line-height: 115%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF
+}
+
+.power_dream{
+    box-sizing: border-box;
+    padding-left: 40%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1232px;
+    height: 768px;
+    background-image: url('./image/halo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.power_text{
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 100%;
+    letter-spacing: -0.03em;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+.games{
+    box-sizing: border-box;
+    padding-left: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    width: 1232px;
+    height: 755px;
+    background-color: black;
+    position: relative;
+}
+
+
+.game1, .game2, .game3{
+    position: absolute;
+}
+
+.game1{
+    top: 20px;
+    right: 30px;
+}
+
+.game2{
+    top: 440px;
+    right: 20px;
+}
+.game3{
+    top: 150px;
+    right: 180px;
+}
+
+.big_text_s{
+    width: 1075px;
+    height: 100px;
+    margin: 100px auto;
+    font-weight: 700;
+    font-size: 91px;
+    line-height: 115%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF
+}
+
+.gamepad{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+}
+
+.left_part{
+    width: 608px;
+    margin-right: 15px;
+}
+
+.right_part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 608px;
+}
+
+.flash{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 608px;
+    height: 702px;
+    background: linear-gradient(155.3deg, #92E10B 1.33%, #BAFF43 46.46%, #588C00 92.54%);
+    box-shadow: inset 0px 4px 64px #B7FF3D;
+}
+
+.black_text{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 110%;
+    letter-spacing: -0.03em;
+    font-family: 'Inter', sans-serif;
+}
+
+.technology{
+    height: 1120px;
+    width: 80%;
+    margin: 100px auto;
+    position: relative;
+}
+
+.xboxpart{
+    top: 50px;
+    z-index: -1;
+    position: absolute;
+    left: 50px;
+}
+
+.big_other{
+    width: 672px;
+    font-weight: 700;
+    font-size: 91px;
+    line-height: 100%;
+    letter-spacing: -0.03em;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.xbox_price{
+    width: 80%;
+    height: 850px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+    top: -100px;
+}
+
+.price_text{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 53px;
+    line-height: 150%;
+    letter-spacing: -0.03em;
+    color: white;
+}
+
+.m0{
+    margin: 0 auto;
+}
+
+.qanda{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.m00{
+    margin: 0;
+}
+
+.qestion_box{
+    height: 500px;
+
+}
+
+.fquestion{
+    width: 100%;
+    height: 130px;
+}
+
+.borbot{
+    border-bottom: 2px solid #2E2E2E;
+}
+
+.squestion{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    padding-right: 30px;
+}
+
+.qtext{
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 150%;
+    letter-spacing: -0.03em;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.question_part{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    padding-right: 30px;
+    margin-bottom: 10px;
+}
+
+.grey{
+    color: #777777;
+}
