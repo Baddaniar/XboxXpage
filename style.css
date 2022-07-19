@@ -139,7 +139,9 @@ nav > a{
     color: black;
 }
 
-
+.grey{
+    color: #818181;
+}
 
 .big_text{
     width: 1075px;
@@ -368,4 +370,14 @@ nav > a{
 
 .grey{
     color: #777777;
+}
+
+.icon_block{
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
+
+.fs17{
+    font-size: 17px;
 }
